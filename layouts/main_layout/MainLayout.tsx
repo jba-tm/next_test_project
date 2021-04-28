@@ -22,8 +22,9 @@ export class MainLayout extends React.Component<Props> {
                     <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
                     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
                     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+                </Head>
 
-                    <div id="root">
+                <div id="root">
                     <div className="wrapper">
                         <SideNavigation/>
                         <div id="content">
@@ -32,8 +33,7 @@ export class MainLayout extends React.Component<Props> {
                         </div>
 
                     </div>
-                    </div>
-                </Head>
+                </div>
             </>
         );
     }
