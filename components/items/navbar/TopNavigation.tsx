@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {Navbar, Container, Button} from 'react-bootstrap'
+import {Navbar, Container, Button, Nav} from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image';
 import {sidebarRef} from "../sidebar/SideNavigation";
@@ -12,19 +12,19 @@ export const TopNavigation = () => {
         setToggleSide(!toggleSide)
     }
     return (
-        <Navbar expand={'lg'}>
-            <Container fluid>
-                <button id='sidebarCollapse' onClick={handleClick} className={`navbar-btn ${toggleSide?'':'active'}`}>
-                    <span/>
-                    <span/>
-                    <span/>
+        <nav id='navbar' className='navbar'>
+            <div className="container-fluid">
+                <button onClick={handleClick} type="button" id="sidebarCollapse" className="btn btn-info">
+                    <i className="fas fa-align-left"/>
                 </button>
-                <Link href={'/'}>
-                    <a className={'navbar-brand'}>
-                        <Image width={30} height={30} src={'/vercel.svg'}/>
-                    </a>
-                </Link>
-            </Container>
-        </Navbar>
+            </div>
+        </nav>
+        // <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        //     <div className="container-fluid">
+        //         <button onClick={handleClick} type="button" id="sidebarCollapse" className="btn btn-info">
+        //             <i className="fas fa-align-left"/>
+        //         </button>
+        //     </div>
+        // </nav>
     )
 }

@@ -30,9 +30,10 @@ export class MainLayout extends React.Component<Props> {
                         <div id="content">
                             <TopNavigation/>
                             {this.props.children}
-                        </div>
 
+                        </div>
                     </div>
+
                 </div>
             </>
         );
