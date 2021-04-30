@@ -29,7 +29,9 @@ export class MainLayout extends React.Component<Props> {
                         <SideNavigation/>
                         <div id="content">
                             <TopNavigation/>
-                            {this.props.children}
+                            <div className="container container__main">
+                                {this.props.children}
+                            </div>
 
                         </div>
                     </div>
