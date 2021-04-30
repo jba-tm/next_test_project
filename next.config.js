@@ -2,12 +2,12 @@ module.exports = {
     future: {
         webpack5: true,
     },
-    images: {
-        domains: ['mdbootstrap.com'],
-    },
+    // images: {
+    //     domains: ['mdbootstrap.com'],
+    // },
     basePath: '',
 
-    loader: 'css-loader',
+    // loader: 'css-loader',
 
     // options: {
     //     modules: {
