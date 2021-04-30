@@ -1,1 +1,2 @@
-web:yarn dev
+bash:yarn build
+web:yarn start
