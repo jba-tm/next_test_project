@@ -1,1 +1,1 @@
-web: npm start -p 443
+web:PORT=443 npm start
