@@ -1,1 +1,1 @@
-web:yarn dev -p 80
+web:yarn dev
