@@ -1,1 +1,1 @@
-web:PORT=443 npm start
+web:yarn dev -p 80
