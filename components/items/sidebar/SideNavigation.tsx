@@ -12,7 +12,7 @@ const links = [
 
 export const SideNavigation = () => {
     return (
-        <nav id="sidebar" className={'sidebar'} ref={sidebarRef}>
+        <nav id="sidebar" className={'sidebar active'} ref={sidebarRef}>
             <div className="sidebar__header">
                 <div className={'sidebar__header-logo'}/>
                 <div className="container-fluid sidebar__profile">

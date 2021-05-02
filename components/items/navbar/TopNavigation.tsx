@@ -12,7 +12,7 @@ export const TopNavigation = () => {
         setToggleSide(!toggleSide)
     }
     return (
-        <nav className="navbar navbar-expand-sm">
+        <nav className="navbar">
             <div className="container-fluid p-2 px-3">
                 <button onClick={handleClick} className="navbar-toggler me-2" type="button" style={{zIndex: 2000}} >
                     <i className="fas fa-align-justify"/>
